@@ -1,0 +1,27 @@
+#mentorpic{
+    width: 200px;
+}
+
+.mentorprofile{
+    margin-left: 500px;
+}
+
+body{
+    background-color: #d5d5d5;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* 
+hr{
+    color: blueviolet;
+    width: 200px; /* set the desired length of the line */
+    /* height: 2px */
+    /* background-color: black; */
+/* }  */
+/* body{
+    /* background-color: #AD84BB; */
+/* }  */

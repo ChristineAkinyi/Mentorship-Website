@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+}
+
+#logo{
+    width: 40px;
+}
+
+#pic{
+    width: 800px;
+}
+
+.mentorlogo{
+    display: flex;
+}
+
+.navbar{
+    gap: 10%;
+    /* margin-top: 30px; */
+    background-color: #DCDCDC;
+}
+
+.nav{
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.homepagetext{
+    font-size: 45px;
+}
+
+.texthomepage{
+    display: flex;
+    gap: 5%;
+    margin-top: 5%;
+}
+
+#footertext{
+    margin-left: 20%;
+}
+

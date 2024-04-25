@@ -1,0 +1,45 @@
+body{
+    background-color: #E7E8E9;
+}
+
+#welcome-heading{
+    color: #AD84BB;
+    font-size: 70px;
+    margin-left: 20%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#signupbutton{
+    background-color: #872996;
+    color: white;
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: larger;
+    margin-left: 100px;
+}
+
+#loginbutton{
+    background-color: #872996;
+    color: white;
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: larger;
+    margin-left: 100px;
+}
+
+.buttons{
+    margin-left: 20%;
+}
+
+.pagetext{
+    margin-left: 30%;
+}
+
+#mentorlogo{
+    margin-left: 30% ;
+}
