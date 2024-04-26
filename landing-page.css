@@ -3,7 +3,7 @@ body{
 }
 
 #welcome-heading{
-    color: #AD84BB;
+    color: black;
     font-size: 70px;
     margin-left: 20%;
 }
@@ -14,12 +14,17 @@ a{
 
 #signupbutton{
     background-color: #872996;
-    color: white;
+    /* color: white; */
     width: 20%;
     padding: 20px;
     border-radius: 20px;
     font-size: larger;
     margin-left: 100px;
+}
+
+.landingpagetext{
+    margin-right: 200px;
+    font-size: 25px;
 }
 
 #loginbutton{
@@ -41,5 +46,13 @@ a{
 }
 
 #mentorlogo{
-    margin-left: 30% ;
+    margin-left: 40%;
+    width: 10%;
+}
+
+.navbar{
+    margin-left: 250px;
+    display: flex;
+    gap: 20%;
+    margin-top: 20px;
 }

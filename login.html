@@ -8,28 +8,33 @@
 </head>
 <body>
 
-    <div class="navbar">
+<div class="navbar">
+    <div>
+        <img src="mementorlogo.png" alt="" id="mentorlogo">
+    </div>
+    <div class="nav">
+        <a href="index.html">Home</a>
         <a href="mentorprofile.html">Mentor's Profile</a>
     <a href="to-do.html">To-do list</a>
     <a href="achievements.html">Achievements</a>
     <a href="goal-settings.html">Goals</a>
-    </div>
+</div>
+</div>
 
-    <form class="login-page">
-        <h2>Login</h2>
+    <form class="login-page">     
+        <h2 id="loginheading">Login</h2>
         <br>
-        <label for="Username">Username</label>
+        <label for="Username" class="loginlabels">Username</label>
         <br>
         <input type="text" placeholder="username" class="input" required>
         <br>
-        <br>
-        <label for="Password">Password</label>
+        <label for="Password" class="loginlabels">Password</label>
         <br>
         <input type="password" placeholder="Password" class="input" required>
         <br>
         <br>
-        <button id="login-button"><a href="index.html">Login</a></button> 
-        <p><a href="signup.html">Signup</a> if you don't have an account</p>
+        <button id="login-button"><a href="index.html" id="logintext">Login</a></button> 
+        <p><a href="signup.html" id="signup">Signup</a> if you don't have an account</p>
     </form>
 </body>
 </html>

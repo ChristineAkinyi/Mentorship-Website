@@ -1,15 +1,26 @@
-#login-button{
-        background-color: #872996;
-        color: white;
+    #login-button{
+        background-color: #872996; 
         width: 20%;
-        padding: 20px;
+        padding: 10px 120px 10px 100px; 
         border-radius: 20px;
         font-size: larger;
-        margin-left: 100px;
+        margin-left: 120px;
+    }
+
+    #signup{
+        margin-left: 120px;
     }
 
     a{
         text-decoration: none;
+    }
+
+    #mentorlogo{
+        width: 40px;
+    }
+
+    #logintext{
+        margin-left: 2px;
     }
 
     .input{
@@ -17,18 +28,44 @@
         padding: 15px;
         width: 80%;
         margin-bottom: 20px;
+        margin-top: 10px;
     }
 
-    body{
-        margin-left: 300px;
-        margin-top: 100px; 
-        background-color: #E8E8EA;   
-    }
+    /* body{
+        margin-left: 400px;
+        margin-top: 100px;   
+    } */
 
     .login-page{
-        border: solid 5px;
-        border-color: #872996;
-        padding: 24px;
-        width: 50%;
-        /* margin-left: 100px; */
+            background-color: pink;
+            margin-left: 300px;
+            border: solid 5px;
+            border-color: #872996;
+            padding: 24px;
+            width: 50%;
+            margin-top: 30px;
+    }
+
+    #loginheading{
+        margin-left: 200px;
+        font-size: 30px;
+    }
+
+    .loginlabels{
+        margin-left: 200px;
+    } 
+
+    .navbar{
+        background-color: #E8E8EA;
+        padding-bottom: 20px;
+        display: flex;
+    }
+
+    .nav{
+        margin-top: 15px;
+        margin-left: 50px;
+    } 
+
+    a{
+        margin-left: 100px;
     }

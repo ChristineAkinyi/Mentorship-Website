@@ -1,0 +1,11 @@
+#novel{
+    width: 300px;
+}
+
+.summary{
+    display: flex;
+}
+
+#heading{
+   margin-left: 100px;
+}

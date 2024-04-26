@@ -1,6 +1,4 @@
-.navbar{
-    display: flex;
-}
+
 
 #logo{
     width: 40px;
@@ -16,8 +14,12 @@
 
 .navbar{
     gap: 10%;
-    /* margin-top: 30px; */
-    background-color: #DCDCDC;
+    display: flex;
+    background-color: #E8E8EA;
+}
+
+.homenav{
+    margin-top: 15px;
 }
 
 .nav{
@@ -40,5 +42,24 @@ a{
 
 #footertext{
     margin-left: 20%;
+}
+@media screen and (min-width:280px) and (max-width:653px){
+    .texthomepage{
+        flex-direction: column;
+        gap: 5%;
+        margin-top: 5%;
+    }
+
+    #pic{
+        width: 300px;
+    }
+
+    .homepagetext{
+        font-size: 20px;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
 }
 

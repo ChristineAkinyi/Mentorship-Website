@@ -4,22 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="goal-settings.css">
+    <link rel="stylesheet" href="script.js">
 </head>
 <body>
+   
     <div class="navbar">
-    <a href="mentorprofile.html" class="nav">Mentor's Profile</a>
-    <a href="to-do.html" class="nav">To-do list</a>
-    <a href="achievements.html" class="nav">Achievements</a>
-    <a href="goal-settings.html" class="nav">Goals</a>
+        <img src="mementorlogo.png" alt="" id="logo">
+        <a href="index.html">Home</a>
+        <a href="mentorprofile.html" class="nav">Mentor's Profile</a>
+        <a href="to-do.html" class="nav">To-do list</a>
+        <a href="achievements.html" class="nav">Achievements</a>
+        <a href="goal-settings.html" class="nav">Goals</a>
+        <a href="index.html">Home</a>
     </div>
 
-    <div>
-        <h1 id="heading">Goal-Settings</h1>
-        <div class="goals">
-        <span class="dot">&#x2022<hr width="50%" color="blueviolet" id="line1"/></span>
-        <span class="dot">&#x2022<hr width="50%" color="blueviolet" id="line1"/></span>
-        <span class="dot">&#x2022<hr width="50%" color="blueviolet" id="line1"/></span>
-        <span class="dot">&#x2022<hr width="50%" color="blueviolet" id="line1"/></span>
-    </div>
+    <div class="navs">
+        <header>
+            <h1 id="heading">Goal-Settings</h1>
+        </header>
+        
+        <form action="">
+            <header>
+                <b>Short-Term Goals</b>
+            </header>
+            <input type="text" class="todo-input">
+            <button class="todo-button" type="submit">
+                Add
+            </button>
+        </form>
+        <div class="todo-container">
+            <ol class="todo-list"></ol>
+        </div>
+
+        <header>
+            <b>Long-Term Goals</b>
+        </header>
+
+        <input type="text" class="todo-input">
+            <button class="todo-button" type="submit">
+                Add
+            </button>
+        </form>
+        <div class="todo-container">
+            <ol class="todo-list"></ol>
+        </div>
+        <script src="./script.js"></script>
+</div>
+
 </body>
 </html>

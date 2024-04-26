@@ -2,10 +2,39 @@ a{
     text-decoration: none;
 }
 
-body{
-    background-color: #d5d5d5;
+.achievementspage{
+    background-color: pink;
     border: solid 5px;
     border-color: #872996;
     padding: 24px;
     width: 50%;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.lists{
+    margin-left: 20px;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.listone{
+    margin-bottom: 20px;
+}
+
+#achievements{
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+.navbar{
+        gap: 10%;
+        display: flex;
+        background-color: #E8E8EA;
+        padding: 20px;
+        margin-bottom: 5px;
+}
+
+#logo{
+    width: 30px;
 }

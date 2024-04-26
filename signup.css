@@ -3,41 +3,142 @@
 }
 
 .signup-page{
+    background-color: pink;
     border: solid 5px;
     border-color: #872996;
     padding: 24px;
     width: 50%;
-    /* margin-left: 100px; */
+    margin-left: 300px; 
+    margin-top: 20px; 
 }
 
-body{
-    margin-left: 600px;
-    margin-top: 100px; 
-    background-color: #E8E8EA;   
-}
+.signuplabels{
+    margin-left: 200px;
+} 
 
 #signupbutton{
     background-color: #872996;
-    color: white;
-    width: 30%;
-    padding: 20px;
+    color: white; 
+    width: 50%;
+    padding: 10px;
     border-radius: 20px;
     font-size: larger;
-    margin-left: 180px;
+    margin-left: 120px;
 }
 
 #loginprompt{
-    font-size: 25px;
-    margin-left: 100px;
+    font-size: 20px;
+    margin-left: 110px;
 }
 
 .input{
     border-radius: 10px;
-    padding: 15px;
-    width: 80%;
+    padding: 7px 13px 7px 13px;
+    width: 90%;
     margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.inputs{
+    border-radius: 10px;
+    padding: 7px 18px 7px 18px;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 a{
     text-decoration: none;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.navbar{
+    background-color: #E8E8EA;
+    padding-bottom: 20px;
+}
+
+#signupheading{
+    margin-left: 300px;
+}
+
+#logo{
+    width: 40px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.names{
+    display: flex;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 359px){
+    .names{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .signuplabels{
+        margin-left: 150px;
+    }
+
+    .signup-page{
+        margin: 0 auto; 
+        margin-top: 40px; 
+    }
+
+    
+}
+
+@media screen and (min-width:280px) and (max-width:653px){
+    .names{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .signuplabels{
+        margin-left: 150px;
+    }
+
+    .signup-page{
+        margin: 0 auto; 
+        margin-top: 40px; 
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:768px){
+    .names{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .signuplabels{
+        margin-left: 150px;
+    }
+
+    .signup-page{
+        margin: 0 auto; 
+        margin-top: 40px; 
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1025px){
+    .signuplabels{
+        margin-left: 150px;
+    }
+    .signup-page{
+        margin: 0 auto; 
+        margin-top: 40px; 
+    }
+}
+
+@media only screen and (max-width: 1366px){
+    .signuplabels{
+        margin-left: 150px;
+    }
+
+    .signup-page{
+        margin: 0 auto; 
+        margin-top: 40px; 
+    }
 }

@@ -1,6 +1,7 @@
 .dot{
  size: 1.5rem;
  font-size: 20px;
+ margin-top: 10px;
 }
 
 .to-dos{
@@ -8,15 +9,7 @@
 }
 
 #heading{
-    margin-left: 200px;
-}
-
-body{
-    background-color: #d5d5d5;
-    border: solid 5px;
-    border-color: #872996;
-    padding: 24px;
-    width: 50%;
+    margin-left: 600px;
 }
 
 a{
@@ -24,3 +17,53 @@ a{
     margin-left: 10%;
 }
 
+#logo{
+    width: 50px;
+}
+
+.navbar{
+    margin-bottom: 10px;
+    background-color: #E8E8EA;
+    padding: 20px;
+}
+
+.lists{
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 300px;
+    background-color: pink;
+    border: solid 5px;
+    border-color: #872996;
+    padding: 24px;
+    width: 50%;
+}
+
+.listtwo{
+    margin-top: 70px;
+}
+
+.listthree{
+    margin-top: 70px;
+}
+
+.viewbutton{
+    width: 100px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+@media screen and (min-width:365px) and (max-width:667px){
+    #heading{
+        font-size: large;
+    } 
+
+    .to-dos{
+        margin-left: 100px;
+    }
+
+    .bodytext{
+        margin: 0 auto;
+    }
+}
