@@ -1,21 +1,36 @@
+body{
+    /* margin: 40px; */
+} 
 
+/* #logo{
+    width: 40px;
+} */
 
 #logo{
     width: 40px;
+    margin-top: 8px;
+    margin-left: 5px;
 }
 
 #pic{
-    width: 800px;
+    width: 600px;
 }
 
 .mentorlogo{
     display: flex;
 }
 
-.navbar{
+/* .navbar{
     gap: 10%;
     display: flex;
     background-color: #E8E8EA;
+} */
+
+.navbar{
+    background-color: #E8E8EA;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 10%;
 }
 
 .homenav{
@@ -30,18 +45,50 @@ a{
     text-decoration: none;
 }
 
-.homepagetext{
-    font-size: 45px;
+.text{
+    font-size: 40px;
+    margin-bottom: 40px;
 }
 
 .texthomepage{
     display: flex;
-    gap: 5%;
+    gap: 10%;
     margin-top: 5%;
+    margin-left: 7%;
+}
+
+.logos{
+    width: 30px;
+}
+
+.foots{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#built{
+    font-size: 55px;
+}
+
+.footer{
+    background-color: #E8E8EA;
+    display: flex;
+    gap: 30%;
+    margin-top: 120px;
+}
+
+.foot{
+    list-style: none;
+    
 }
 
 #footertext{
-    margin-left: 20%;
+    margin-left: 30%;
+    font-style: italic;
+    color: purple;
+    margin-bottom: 20px;
+    font-size: x-large;
 }
 @media screen and (min-width:280px) and (max-width:653px){
     .texthomepage{
@@ -60,6 +107,17 @@ a{
 
     .navbar{
         flex-direction: column;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .text{
+        font-size: 35px;
+    }
+    .navbar{
+        width: 95%;
     }
 }
 

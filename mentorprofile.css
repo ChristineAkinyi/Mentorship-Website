@@ -5,11 +5,13 @@
 .mentorprofile{
     margin-left: 200px; 
     margin-top: 30px;
+    display: flex;
+    gap: 20%;
 }
 
 
 #mentorprofileheading{
-    margin-left: 280px;
+    margin-left: 500px;
 }
 
 .mentordetails{
@@ -23,12 +25,46 @@ a{
 
 .mentorpage{
     background-color: pink;
-    margin-left: 280px;
+    /* margin-left: 280px; */
     border: solid 5px;
     border-color: #872996;
-    padding: 24px;
-    width: 50%;
-    margin-top: 30px;
+    padding: 25px; 
+    /* width: 50%; */
+    margin-top: 30px; 
+}
+.footer{
+    background-color: #E8E8EA;
+    display: flex;
+    gap: 30%;
+    margin-top: 65px;
+
+}
+
+.foot{
+    list-style: none;
+    
+}
+
+.logos{
+    width: 30px;
+}
+
+.foots{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* #built{
+    font-size: xx-large;
+} */
+
+#footertext{
+    margin-left: 30%;
+    font-style: italic;
+    color: purple;
+    margin-bottom: 20px;
+    font-size: x-large;
 }
 
 #logo{
