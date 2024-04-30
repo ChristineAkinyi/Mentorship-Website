@@ -7,5 +7,23 @@
 }
 
 #heading{
-   margin-left: 100px;
+   margin-left: 300px;
+   font-size: 35px;
+   margin-top: 20px;
+}
+
+#bornacrimepic{
+    width: 250px;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.bornacrimesummary{
+    gap: 500px;
+}
+
+.text{
+    margin-left: 450px;
+    font-size: larger;
+
 }
