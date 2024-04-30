@@ -8,11 +8,10 @@
 </head>
 <body>
 
-    <div class="navbar">
+    <div class="nav">
         <img src="mementorlogo.png" alt="" id="logo">
         <a href="index.html">Home</a>
         <a href="mentorprofile.html">Mentor's Profile</a>
-        <a href="to-do.html">To-do list</a>
         <a href="achievements.html">Achievements</a>
         <a href="goal-settings.html">Goals</a>
 </div> 
@@ -24,21 +23,14 @@
     
 
 <div class="lists">
-    <div class="listone">
-<input type="checkbox"><label for="Born A Crime Summary">Born A Crime Summary</label>
-  <button class="viewbutton"><a href="nyj.html">View To-Do</a></button>
-  </div>
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Add new task...">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+    <script src="todo.js"></script>
 
-   <div class="listtwo">
-   <input type="checkbox"><label for="My Daily Tasks">Do UI/UX Research</label>
-   <button class="viewbutton">View To-Do</a></button>
-   </div>
+</div> 
 
-   <div class="listthree">
-   <input type="checkbox"><label for="My Daily Tasks">Style Website</label>
-   <button class="viewbutton">View To-Do</a></button>
-   </div>
-</div>
 
 <div class="footer">
     <ul class="foot">
@@ -61,5 +53,6 @@
        <li><img src="facebook.webp" alt="" class="logos"></li>
     </ul>
 </div>
+<!-- <script src="todo.js"></script> -->
 </body>
 </html>

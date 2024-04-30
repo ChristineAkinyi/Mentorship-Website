@@ -4,12 +4,11 @@
 
 .signup-page{
     background-color: pink;
-    border: solid 5px; 
-    border-color: #872996;
+    /* border: solid 5px;  */
+    /* border-color: #872996; */
     padding: 1px;
     width: 50%;
     margin-left: 300px; 
-    margin-top: 5px;  
 }
 
 .signuplabels{
@@ -65,14 +64,18 @@ a{
     margin-left: 10px;
 }
 
-.navbar{
-    padding-bottom: 20px;
-    color: purple;
-}
-
 .nav{
     background-color: #E8E8EA;
+    padding-bottom: 20px;
+    display: flex;
+    color: purple;
+    gap: 40px;
 }
+
+.navbar{
+    color: purple;
+    padding-top: 18px;
+} 
 
 #signupheading{
     margin-left: 300px;

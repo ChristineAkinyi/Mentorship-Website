@@ -37,7 +37,6 @@ a{
     display: flex;
     gap: 30%;
     margin-top: 65px;
-
 }
 
 .foot{
@@ -55,10 +54,6 @@ a{
     gap: 20px;
 }
 
-/* #built{
-    font-size: xx-large;
-} */
-
 #footertext{
     margin-left: 30%;
     font-style: italic;
@@ -69,78 +64,136 @@ a{
 
 #logo{
     width: 40px;
-    margin-top: 8px;
+    margin-bottom: 5px;
     margin-left: 5px;
 }
 
 .navbar{
-    background-color: #E8E8EA;
-    padding-bottom: 20px;
-}
+        background-color: #E8E8EA;
+        padding-top: 20px;
+        display: flex;
+        gap: 50px;
+    }
 
-@media screen and (min-width:280px) and (max-width:653px){
+@media screen and (max-width:375px){    
+    .navbar{
+        background-color: #E8E8EA;
+        padding-top: 20px;
+    
+        gap: 50px;
+    }
     
 
-     .mentorprofile{
-        margin-left: 50px; 
-        margin-top: 30px;
-    }
 
+    
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px){
+    .navbar{
+        background-color: #E8E8EA;
+        padding-top: 20px;
+    
+        gap: 50px;
+    } 
+    .mentorprofile{
+        margin-left: 150px; 
+        margin-top: 30px;
+        /* flex-direction: column; */
+        display: flex;
+        gap: 4%;
+    }
+    #mentorpic{
+        width: 150px;
+    }  
+    
     #mentorprofileheading{
-        margin-left: 20px;
+        margin-left: 150px;
+    }
+    
+    .mentordetails{
+        color: blueviolet;
+    }
+    
+    a{
+        text-decoration: none;
+        margin-left: 10%;
+    }
+    
+    .mentorpage{
+        background-color: pink;
+        /* margin-left: 280px; */
+        border: solid 2px;
+        border-color: #872996;
+        padding: 25px; 
+        /* width: 50%; */
+        margin-top: 30px; 
+    }
+}
+
+@media only screen and (max-width: 1020px){
+    .navbar{
+        background-color: #E8E8EA;
+        padding-top: 20px;
+        display: flex;
+        /* gap: 20px; */
+    } 
+    /* .mentorprofile{
+        margin-left: 150px; 
+        margin-top: 30px;
+        display: flex;
+        gap: 4%;
+    } */
+    /* #mentorpic{
+        width: 140px;
+    }   */
+    
+    /* #mentorprofileheading{
+        margin-left: 150px;
+    } */
+    
+    /* .mentordetails{
+        color: blueviolet;
+    } */
+    
+    /* a{
+        text-decoration: none;
+        margin-left: 10%;
+    } */
+/*     
+    .mentorpage{
+        background-color: pink;
+        border: solid 2px;
+        border-color: #872996;
+        padding: 25px; 
+        margin-top: 30px; 
     } */
 
-    #mentorpic{
-        width: 150px;
-    }
-
-    body{
-        margin: 0 auto;
-        margin-top: 30px;
-    }
-
-    .mentorpage{
-        margin-left: 20px;
+    .footer{
+        background-color: #E8E8EA;
+        display: flex;
+        gap: 30%;
+        margin-top: 65px;
     }
 }
+  
 
-@media only screen and (min-width: 768px) and (max-width: 1025px){
-    .mentorprofile{
-        margin-left: 50px; 
-        margin-top: 30px;
+
+@media only screen and (max-width:1366px){
+    .footer{
+        background-color: #E8E8EA;
+        display: flex;
+        gap: 10%;
+        margin-top: 65px;
+    }
+
+    .navbar{
+        background-color: #E8E8EA;
+        padding-top: 20px;    
+        gap: 20px;
     }
 
     #mentorprofileheading{
-        margin-left: 20px;
-    }
-
-    #mentorpic{
-        width: 100px;
-    }
-
-    body{
-        margin: 0 auto;
-        margin-top: 30px;
-    }
-}
-
-@media only screen and (max-width: 1366px){
-    .mentorprofile{
-        margin-left: 200px; 
-        margin-top: 30px;
-    }
-
-    #mentorprofileheading{
-        margin-left: 20px;
-    }
-
-    #mentorpic{
-        width: 150px;
-    }
-
-    body{
-        margin: 0 auto;
-        margin-top: 30px;
+        margin-left: 260px;
     }
 }
 
